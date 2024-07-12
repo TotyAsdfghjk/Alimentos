@@ -32,6 +32,19 @@ nav ul li a {
     text-decoration: none;
 }
 
+#hero {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 250px;
+}
+
+#hero img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
 section {
     padding: 2em;
     text-align: center;
@@ -60,7 +73,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -93,4 +106,12 @@ form button {
 
 form button:hover {
     background-color: #005bb5;
+}
+
+#cart {
+    padding-bottom: 3em; /* Asegurar espacio para evitar que el contenido sea ocultado por el footer */
+}
+
+.product p strong {
+    color: #black;
 }
